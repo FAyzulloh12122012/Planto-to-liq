@@ -1,0 +1,18 @@
+.our{
+    padding: 100px 0;
+
+    .our__wraper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 136px;
+
+        .our_title{
+            color: var(--color-white);
+            font-size: 55px;
+            font-weight: 600;
+            letter-spacing: 3px;
+        }
+    }
+}

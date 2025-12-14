@@ -1,0 +1,40 @@
+:root{
+    --bg-black:black;
+    --color-black:black;
+    --bg-white:white;
+    --color-white:white;
+    --bg-grey:grey;
+    --color-grey:grey;
+    --bg-green:#001100;
+    --color-green:#001100;
+}
+body{
+    background: var(--bg-green);
+    font-family: 'inter';
+    
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .cointeyner{
+        max-width: 1600px;
+        min-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    button{
+        cursor: pointer;
+    }
+    
+    ul,ol{
+        list-style: none;
+    }
+}

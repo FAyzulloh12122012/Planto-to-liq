@@ -1,0 +1,62 @@
+@mixin flex1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+@mixin flex2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex3{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg-green);
+    padding: 25px;
+
+    .header__wraper{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        grid-template-rows: 1fr;
+
+        .header__logo{
+            @include flex1;
+            gap: 14px;
+            
+            .header_title{
+                color: var(--color-white);
+                font-size: 28px;
+                font-weight: 900;
+                letter-spacing:2px;
+            }
+        }
+        .navbar__list{
+            @include flex2;
+            margin-top: 18px;
+            gap: 59px;
+
+            .navbar_link{
+                color: var(--color-white);
+                font-size: 20px;
+                font-weight: 300;
+            }
+        }
+        .header__icons{
+            @include flex3;
+            gap: 30px;
+            margin-top: 18px;
+
+            .icons_btn{
+                background: var(--bg-green);
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}
