@@ -823,13 +823,13 @@ body ul, body ol {
   font-size: 52px;
   font-weight: 600;
 }
-.fresh .fresh__wraper .fresh__content .fersh__btn {
+.fresh .fresh__wraper .fresh__content .fresh__btn {
   display: flex;
   align-items: center;
   justify-content: start;
   gap: 20px;
 }
-.fresh .fresh__wraper .fresh__content .fersh__btn .fresh_btn:nth-child(1) {
+.fresh .fresh__wraper .fresh__content .fresh__btn .fresh_btn:nth-child(1) {
   background: transparent;
   border: 3px solid var(--color-white);
   width: 217px;
@@ -838,7 +838,7 @@ body ul, body ol {
   font-size: 24px;
   color: var(--color-white);
 }
-.fresh .fresh__wraper .fresh__content .fersh__btn .fresh_btn:nth-child(2) {
+.fresh .fresh__wraper .fresh__content .fresh__btn .fresh_btn:nth-child(2) {
   background: transparent;
   border: 3px solid var(--color-white);
   border-radius: 10px;
