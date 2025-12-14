@@ -587,6 +587,7 @@ body ul, body ol {
   display: flex;
   align-items: start;
   justify-content: space-between;
+  position: relative;
 }
 .hero .hero__wraper .hero__left .hero_title {
   color: var(--color-white);
@@ -660,6 +661,9 @@ body ul, body ol {
   font-size: 24px;
 }
 .hero .hero__content {
+  position: absolute;
+  bottom: -150px;
+  left: 0px;
   background: rgba(255, 255, 255, 0.1019607843);
   width: 409px;
   height: 237px;
